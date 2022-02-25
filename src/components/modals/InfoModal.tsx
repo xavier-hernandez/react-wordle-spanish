@@ -15,33 +15,43 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="J" status="correct" />
-        <Cell value="U" />
-        <Cell value="G" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="W"
+          status="correct"
+        />
+        <Cell value="E" />
         <Cell value="A" />
         <Cell value="R" />
+        <Cell value="Y" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         La letra J está en la palabra y en el lugar correcto.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="C" />
+        <Cell value="P" />
         <Cell value="I" />
-        <Cell value="N" status="present" />
-        <Cell value="C" />
+        <Cell
+          isRevealing={true}
+          isCompleted={true}
+          value="L"
+          status="present"
+        />
         <Cell value="O" />
+        <Cell value="T" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         La letra N está en la palabra pero en el lugar equivocado.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="L" />
-        <Cell value="A" />
         <Cell value="V" />
-        <Cell value="A" status="absent" />
-        <Cell value="S" />
+        <Cell value="A" />
+        <Cell value="G" />
+        <Cell isRevealing={true} isCompleted={true} value="U" status="absent" />
+        <Cell value="E" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         La letra U no está en la palabra en ningún lugar.
