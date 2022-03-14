@@ -8,7 +8,7 @@ export const HARD_MODE_ALERT_MESSAGE =
   'El modo difÃ­cil solo se puede habilitar al principio!'
 export const HARD_MODE_DESCRIPTION =
   'Cualquier pista revelada debe usarse en conjeturas posteriores'
-export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para mejorar la visión del color'
+export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Para mejorar la vista del color'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `La palabra era ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
