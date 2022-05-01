@@ -25,3 +25,5 @@ export const TOTAL_TRIES_TEXT = 'Intentos totales'
 export const SUCCESS_RATE_TEXT = 'Tasa de Ã©xito'
 export const CURRENT_STREAK_TEXT = 'Racha actual'
 export const BEST_STREAK_TEXT = 'Mejor racha'
+export const DISCOURAGE_INAPP_BROWSER_TEXT =
+  "Está utilizando un navegador integrado y puede tener problemas para compartir o guardar sus resultados. Le recomendamos que utilice el navegador predeterminado de su dispositivo."
