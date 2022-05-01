@@ -1,6 +1,6 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Great Job!', 'Awesome', 'Well done!']
+export const WIN_MESSAGES = ['¡Buen trabajo!', 'Impresionante', '¡Bien hecho!']
 export const GAME_COPIED_MESSAGE = 'Juego copiado al portapapeles'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'No hay suficientes letras'
 export const WORD_NOT_FOUND_MESSAGE = 'Palabra no encontrada'
@@ -26,4 +26,4 @@ export const SUCCESS_RATE_TEXT = 'Tasa de éxito'
 export const CURRENT_STREAK_TEXT = 'Racha actual'
 export const BEST_STREAK_TEXT = 'Mejor racha'
 export const DISCOURAGE_INAPP_BROWSER_TEXT =
-  "Est� utilizando un navegador integrado y puede tener problemas para compartir o guardar sus resultados. Le recomendamos que utilice el navegador predeterminado de su dispositivo."
+  "Est� utilizando un navegador integrado y puede tener problemas para compartir o guardar sus resultados. Le recomendamos que utilice el navegador predeterminado de su dispositivo."
