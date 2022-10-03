@@ -59,6 +59,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
 		    Presentado en español por Xavier Hernandez<br/> y Kelly Vargas.
+        <br/><br/>
+        Wordle-ES versión 2.0
+        <br/>
+        Diccionario actualizado: 2 de octubre de 2022
 		    <br/><br/>
         <a href="https://www.cognitoforms.com/Xavier8/WordleDeEspanolSoporte" className="underline font-bold">Preguntas o Problemas?</a>
 		    <br/><br/>
