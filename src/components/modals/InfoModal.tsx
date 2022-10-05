@@ -64,7 +64,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         <br/>
         Diccionario actualizado: 2 de octubre de 2022
 		    <br/><br/>
-        <a href="https://www.cognitoforms.com/Xavier8/WordleDeEspanolSoporte" className="underline font-bold">Preguntas o Problemas?</a>
+        <a href="https://www.cognitoforms.com/Xavier8/WordleDeEspanolSoporte" className="underline font-bold">Preguntas o Problemas?</a> o mande correo a wordle-es@xavier.cc
 		    <br/><br/>
 		    Este es un clon de cwackerfuss/react-wordle<br/> <a href="https://github.com/cwackerfuss/react-wordle" className="underline font-bold"> mira el código aquí</a>
       </p>
