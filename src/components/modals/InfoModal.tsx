@@ -60,11 +60,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
 		    Presentado en español por Xavier Hernandez<br/> y Kelly Vargas.
         <br/><br/>
-        Wordle-ES versión 2.0
+        Wordle-ES versión 2.1
         <br/>
         Diccionario actualizado: 2 de octubre de 2022
 		    <br/><br/>
-        <a href="https://www.cognitoforms.com/Xavier8/WordleDeEspanolSoporte" className="underline font-bold">Preguntas o Problemas?</a> <br/> o mande correo a wordle-es@xavier.cc
+        Preguntas o problemas mande correo a <br/><a href="mailto:wordle-es@xavier.cc" className="underline font-bold">wordle-es@xavier.cc</a>
 		    <br/><br/>
 		    Este es un clon de cwackerfuss/react-wordle<br/> <a href="https://github.com/cwackerfuss/react-wordle" className="underline font-bold"> mira el código aquí</a>
       </p>
