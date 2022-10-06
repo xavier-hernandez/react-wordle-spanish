@@ -14,7 +14,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
          cambia para mostrar qué tan cerca estuvo tu conjetura de la palabra.
       </p>
 
-      <div className="flex justify-center mb-1 mt-4">
+      <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}
           isCompleted={true}
@@ -30,7 +30,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         La letra J está en la palabra y en el lugar correcto.
       </p>
 
-      <div className="flex justify-center mb-1 mt-4">
+      <div className="mb-1 mt-4 flex justify-center">
         <Cell value="C" />
         <Cell value="I" />
         <Cell
@@ -46,7 +46,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         La letra N está en la palabra pero en el lugar equivocado.
       </p>
 
-      <div className="flex justify-center mb-1 mt-4">
+      <div className="mb-1 mt-4 flex justify-center">
         <Cell value="L" />
         <Cell value="A" />
         <Cell value="V" />
@@ -60,11 +60,11 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
 		    Presentado en español por Xavier Hernandez<br/> y Kelly Vargas.
         <br/><br/>
-        Wordle-ES versión 2.0
+        Wordle-ES versión 2.1
         <br/>
         Diccionario actualizado: 2 de octubre de 2022
 		    <br/><br/>
-        <a href="https://www.cognitoforms.com/Xavier8/WordleDeEspanolSoporte" className="underline font-bold">Preguntas o Problemas?</a> <br/> o mande correo a wordle-es@xavier.cc
+        Preguntas o problemas mande correo a <br/><a href="mailto:wordle-es@xavier.cc" className="underline font-bold">wordle-es@xavier.cc</a>
 		    <br/><br/>
 		    Este es un clon de cwackerfuss/react-wordle<br/> <a href="https://github.com/cwackerfuss/react-wordle" className="underline font-bold"> mira el código aquí</a>
       </p>
