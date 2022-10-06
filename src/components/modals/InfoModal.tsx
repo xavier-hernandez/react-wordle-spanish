@@ -14,7 +14,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
          cambia para mostrar qué tan cerca estuvo tu conjetura de la palabra.
       </p>
 
-      <div className="flex justify-center mb-1 mt-4">
+      <div className="mb-1 mt-4 flex justify-center">
         <Cell
           isRevealing={true}
           isCompleted={true}
@@ -30,7 +30,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         La letra J está en la palabra y en el lugar correcto.
       </p>
 
-      <div className="flex justify-center mb-1 mt-4">
+      <div className="mb-1 mt-4 flex justify-center">
         <Cell value="C" />
         <Cell value="I" />
         <Cell
@@ -46,7 +46,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         La letra N está en la palabra pero en el lugar equivocado.
       </p>
 
-      <div className="flex justify-center mb-1 mt-4">
+      <div className="mb-1 mt-4 flex justify-center">
         <Cell value="L" />
         <Cell value="A" />
         <Cell value="V" />
