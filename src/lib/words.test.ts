@@ -74,6 +74,6 @@ describe('solutionIndex', () => {
     expect(() => getWordOfDay(-1)).toThrowError('Invalid index')
     expect(getWordOfDay(0)).toEqual('BULLA')
     expect(getWordOfDay(1)).toEqual('NEUMA')
-    expect(getWordOfDay(255)).toEqual('JIMIO')
+    expect(getWordOfDay(255)).toEqual('RATEA')
   })
 })
