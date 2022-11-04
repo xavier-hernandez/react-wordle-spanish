@@ -1,6 +1,10 @@
 import { Cell } from '../grid/Cell'
 import { BaseModal } from './BaseModal'
 
+import {
+  PRESENTED_BY, VERSION, CONTACT, GITHUB
+} from '../../constants/strings'
+
 type Props = {
   isOpen: boolean
   handleClose: () => void
@@ -58,15 +62,13 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
       </p>
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
-		    Presentado en español por Xavier Hernandez<br/> y Kelly Vargas.
-        <br/><br/>
-        Wordle-ES versión 2.1
-        <br/>
-        Diccionario actualizado: 2 de octubre de 2022
-		    <br/><br/>
-        Preguntas o problemas mande correo a <br/><a href="mailto:wordle-es@xavier.cc" className="underline font-bold">wordle-es@xavier.cc</a>
-		    <br/><br/>
-		    Este es un clon de cwackerfuss/react-wordle<br/> <a href="https://github.com/cwackerfuss/react-wordle" className="underline font-bold"> mira el código aquí</a>
+      <div dangerouslySetInnerHTML={{__html: PRESENTED_BY}}/>
+      <br/>
+      <div dangerouslySetInnerHTML={{__html: VERSION}}/>
+      <br/>
+      <div dangerouslySetInnerHTML={{__html: CONTACT}}/>
+		  <br/>
+      <div dangerouslySetInnerHTML={{__html: GITHUB}}/>
       </p>
     </BaseModal>
   )

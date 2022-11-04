@@ -36,3 +36,9 @@ export const DATEPICKER_TITLE = 'Elige una fecha pasada'
 export const DATEPICKER_CHOOSE_TEXT = 'Elegir'
 export const DATEPICKER_TODAY_TEXT = 'ahora'
 export const ARCHIVE_GAMEDATE_TEXT = 'Fecha del juego'
+
+export const PRESENTED_BY = process.env.REACT_APP_PRESENTED_BY as string
+export const VERSION = process.env.REACT_APP_VERSION as string
+export const CONTACT = process.env.REACT_APP_CONTACT as string
+export const GITHUB = process.env.REACT_APP_GITHUB as string
+
