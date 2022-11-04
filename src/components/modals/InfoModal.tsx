@@ -63,7 +63,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
 
       <p className="mt-6 italic text-sm text-gray-500 dark:text-gray-300">
       <div dangerouslySetInnerHTML={{__html: PRESENTED_BY}}/>
-        <br/>
+      <br/>
       <div dangerouslySetInnerHTML={{__html: VERSION}}/>
       <br/>
       <div dangerouslySetInnerHTML={{__html: CONTACT}}/>
