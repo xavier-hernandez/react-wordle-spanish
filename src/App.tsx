@@ -182,9 +182,12 @@ function App() {
     }
 
     if (isGameLost) {
-      setTimeout(() => {
+      setTimeout(
+        () => {
         setIsStatsModalOpen(true)
-      }, (solution.length + 1) * REVEAL_TIME_MS)
+        },
+        (solution.length + 1) * REVEAL_TIME_MS
+      )
     }
   }, [isGameWon, isGameLost, showSuccessAlert])
 

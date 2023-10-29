@@ -14,8 +14,16 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
   return (
     <BaseModal title="Cómo jugar" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
+        Bienvenido a Wordle en español.<br/>
+        (Spanish Wordle)
+      </p>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
+        Un rompecabezas de palabras diario.
+      </p>
+      <br/>
+      <p className="text-sm text-gray-500 dark:text-gray-300">
         Adivina la palabra en 6 intentos. Después de cada intento, el color de las fichas se
-         cambia para mostrar qué tan cerca estuvo tu conjetura de la palabra.
+         cambia para mostrar qué tan cerca estuvo para completar la palabra.
       </p>
 
       <div className="mb-1 mt-4 flex justify-center">

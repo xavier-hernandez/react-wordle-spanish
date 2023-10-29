@@ -7,7 +7,7 @@ COPY . .
 FROM node_modules AS prod_builder
 RUN npm run build
 
-FROM nginx:1.20.2-alpine
+FROM nginx:1.24.0-alpine
 COPY --from=prod_builder /app/build /usr/share/nginx/html
 # Default HTTP port of Nginx.
 EXPOSE 80
